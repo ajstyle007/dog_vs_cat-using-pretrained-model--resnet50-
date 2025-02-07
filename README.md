@@ -6,11 +6,11 @@
 ![dog_vs_cat](https://github.com/user-attachments/assets/30a266c3-9a74-4b11-99b8-ab75bf18baeb)
 
 ### 📌 Features
-✅ Pretrained ResNet50 Backbone – Uses a well-optimized CNN for feature extraction.
-✅ Fast & Accurate Classification – Predicts whether an image contains a dog or a cat in seconds.
-✅ User-Friendly Streamlit App – Easily upload an image and get instant classification results.
-✅ Transfer Learning Approach – Fine-tuned on a labeled dataset for improved performance.
-✅ Lightweight & Scalable – Can be deployed on local machines or cloud platforms.
+- ✅ Pretrained ResNet50 Backbone – Uses a well-optimized CNN for feature extraction.
+- ✅ Fast & Accurate Classification – Predicts whether an image contains a dog or a cat in seconds.
+- ✅ User-Friendly Streamlit App – Easily upload an image and get instant classification results.
+- ✅ Transfer Learning Approach – Fine-tuned on a labeled dataset for improved performance.
+- ✅ Lightweight & Scalable – Can be deployed on local machines or cloud platforms.
 
 ### 🛠 Tech Stack
 - Python
@@ -36,7 +36,7 @@ streamlit run app.py
 4️⃣ Upload an Image & Get Predictions! 🎉
 
 ### 🔥 Future Enhancements
-🔹 Add more animal categories 🦊🐰
-🔹 Improve accuracy with data augmentation 📈
+- 🔹 Add more animal categories 🦊🐰
+- 🔹 Improve accuracy with data augmentation 📈
 
 🚀 Star this repo ⭐ if you find it useful! Happy coding! 🐶🐱
