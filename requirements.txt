@@ -1,4 +1,4 @@
-torch==2.5.1+cu124
+torch==2.5.1
 streamlit==1.29.0
-torchvision==0.20.1+cu124
+torchvision==0.20.1
 json5==0.9.14
