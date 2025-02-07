@@ -14,10 +14,11 @@
 
 ### 🛠 Tech Stack
 - Python
-- TensorFlow / Keras
+- PyTorch / torchvision
 - Pretrained ResNet50 Model
-- OpenCV / PIL for Image Processing
+- PIL for Image Processing
 - Streamlit for Web App
+- Json
 
 ### 🎯 How to Use
 1️⃣ Clone the Repository
@@ -38,5 +39,6 @@ streamlit run app.py
 ### 🔥 Future Enhancements
 - 🔹 Add more animal categories 🦊🐰
 - 🔹 Improve accuracy with data augmentation 📈
+
 
 🚀 Star this repo ⭐ if you find it useful! Happy coding! 🐶🐱
