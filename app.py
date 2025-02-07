@@ -48,10 +48,20 @@ st.markdown(
         unsafe_allow_html=True
     )
 # st.write("Upload an image and let the model classify it!")
-st.markdown(
+col1, col2 = st.columns([3,1])
+col1.markdown(
         "<h1 style='text-align: left; color: #0FFCBE; margin-top: -20px; margin-bottom: -25px; font-weight: bold; font-size: 17px;'>Upload an image and let the model classify it!</h1>", 
         unsafe_allow_html=True
     )
+
+with col2:
+    st.markdown(
+        "<a href='https://example.com' target='_blank' style='text-decoration: none;'>"
+        "<button style='background-color: #0FFCBE; color: black; border: none; padding: 8px 12px; font-size: 16px; cursor: pointer;'>Visit</button>"
+        "</a>",
+        unsafe_allow_html=True
+    )
+
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
