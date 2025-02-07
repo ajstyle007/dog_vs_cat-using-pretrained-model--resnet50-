@@ -44,20 +44,25 @@ st.markdown(
         unsafe_allow_html=True
     )
 st.markdown(
-        "<h1 style='text-align: center; color: #FF921C; margin-top: -45px; font-weight: bold; font-size: 40px;'>with ResNet-50!</h1>", 
+        "<h1 style='text-align: center; color: #FF921C; margin-top: -45px; margin-bottom: -55px; font-weight: bold; font-size: 40px;'>with ResNet-50!</h1>", 
         unsafe_allow_html=True
     )
+st.markdown(
+    "<hr style='border: none; height: 0.5px; background-color: #ccc; margin-top: 5px; margin-bottom: 20px;'>",
+    unsafe_allow_html=True
+)
+
 # st.write("Upload an image and let the model classify it!")
 col1, col2 = st.columns([3,1])
 col1.markdown(
-        "<h1 style='text-align: left; color: #0FFCBE; margin-top: -20px; margin-bottom: -25px; font-weight: bold; font-size: 17px;'>Upload an image and let the model classify it!</h1>", 
+        "<h1 style='text-align: left; color: #0FFCBE; margin-top: -15px; margin-bottom: -20px; font-weight: bold; font-size: 17px;'>Upload an image and let the model classify it!</h1>", 
         unsafe_allow_html=True
     )
 
 with col2:
     st.markdown(
-        "<a href='https://example.com' target='_blank' style='text-decoration: none;'>"
-        "<button style='background-color: #0FFCBE; color: black; border: none; padding: 8px 12px; font-size: 16px; cursor: pointer;'>Visit</button>"
+        "<a href='https://github.com/ajstyle007/dog_vs_cat-using-pretrained-model--resnet50-/tree/master/example%20images' target='_blank' style='text-decoration: none;'>"
+        "<button style='background-color: #0FFCBE; color: black; margin-top: 1px; margin-bottom: -20px; border: none; padding: 8px 12px; font-size: 16px; cursor: pointer;'>Example Images</button>"
         "</a>",
         unsafe_allow_html=True
     )
