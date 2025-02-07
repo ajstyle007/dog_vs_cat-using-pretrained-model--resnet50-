@@ -2,6 +2,9 @@
 
 - This repository contains a deep learning-based image classification model that distinguishes between dogs and cats using the ResNet50 architecture. The model leverages transfer learning from a pretrained ResNet50 network (trained on ImageNet) to achieve high accuracy (95.36%) with minimal training time.
 
+### 🌍 Live Demo
+🚀 Try the live app here: [Dog vs. Cat Classifier](https://musk12-dog-cat-classifier-with-resnet-50.hf.space/)
+
 ### 📷 Demo Screenshot
 ![dog_vs_cat](https://github.com/user-attachments/assets/30a266c3-9a74-4b11-99b8-ab75bf18baeb)
 
